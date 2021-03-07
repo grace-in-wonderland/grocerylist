@@ -18,7 +18,7 @@ body {
   margin: 20px;
   font-size: 18px;
   border-radius: 10px;
-  color: #003B20;
+  color: white;
 }
 
 #add-ingredient-form input::placeholder {

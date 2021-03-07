@@ -1,0 +1,21 @@
+.list {
+  color: black;
+  height: 50px;
+  width: 300px;
+  background-color: #A2B8C8;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.list p {
+  padding: 10px;
+  position: relative;
+}
+
+.deleteicon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 15px;
+}
