@@ -18,4 +18,11 @@
   cursor: pointer;
   margin: 0 5px;
   font-size: 15px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.deleteicon:focus {
+  border-bottom: 3px double gray;
 }
