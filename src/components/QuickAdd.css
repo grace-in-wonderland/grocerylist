@@ -1,11 +1,11 @@
 .QuickAdd {
-  background-color: #29516D;
+  background-color: #585672;
   width: 400px;
   margin: 40px auto;
 }
 
 .QuickAdd button {
-  background-color: #AA7939;
+  background-color: #78768F;
   height: 50px;
   width: 175px;
   color: white;
@@ -21,4 +21,12 @@
   text-align: center;
   color: white;
   margin-top: 15px;
+}
+
+.QuickAddWrapper {
+  background-image: url("full_cart_red.svg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: bottom right;
+  background-size: 33%;
 }

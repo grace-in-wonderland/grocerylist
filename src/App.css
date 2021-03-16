@@ -1,38 +1,44 @@
-body {
-  background-color: #499371;
+.AppWrapper {
+  background-image: url("empty_cart_red.svg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: 15px 10px;
+  background-size: 30%;
+  min-height: ;
 }
 
 .App {
-  background-color: #486D88;
+  background-color: #DBDBDB;
   min-height: 500px;
   width: 400px;
   margin: 40px auto;
+  border-radius: 5px;
 }
 
 #add-ingredient-form input {
-  background-color: #29516D;
+  background-color: #78768F;
   border: 0;
   width: 200px;
   height: 50px;
   padding: 0 20px;
   margin: 20px;
   font-size: 18px;
-  border-radius: 10px;
-  color: white;
+  border-radius: 7px;
+  color: black;
 }
 
 #add-ingredient-form input::placeholder {
-  color: white;
+  color: black;
 }
 
 #add-ingredient-form button {
-  background-color: #AA7939;
+  background-color: #585672;
   height: 50px;
   width: 80px;
   color: white;
   font-size: 18px;
   font-weight: bolder;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 0;
   cursor: pointer;
 }

@@ -59,16 +59,20 @@ class App extends React.Component {
   render() {
     return (
     <div>
-      <div className="App">
-        <header>
-          <form id="add-ingredient-form" onSubmit={this.addItem}>
-            <input type="text" value={this.state.currentItem.text} onChange={this.handleInput} placeholder="Enter Ingredient"/>
-            <button type="submit">Add</button>
-          </form>
-        </header>
-         <ListItems items={this.state.items} deleteItem={this.deleteItem}/>
+      <div className="AppWrapper">
+        <div className="App">
+          <header>
+            <form id="add-ingredient-form" onSubmit={this.addItem}>
+              <input type="text" value={this.state.currentItem.text} onChange={this.handleInput} placeholder="Enter Ingredient"/>
+              <button type="submit">Add</button>
+            </form>
+          </header>
+          <ListItems items={this.state.items} deleteItem={this.deleteItem}/>
+        </div>
       </div>
-      <div className="QuickAdd"> <QuickAdd addItemsFunction={this.addItems}/></div>
+      <div className="QuickAddWrapper">
+        <div className="QuickAdd"> <QuickAdd addItemsFunction={this.addItems}/></div>
+      </div>
     </div>
     );
   }
